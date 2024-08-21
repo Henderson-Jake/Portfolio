@@ -5,6 +5,7 @@ import Footer from './components/Footer.js'
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
+import 'normalize.css'
 
 function App() {
   return (
