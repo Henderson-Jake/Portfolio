@@ -1,0 +1,71 @@
+.header{
+    background-color: #45523e;
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.logo-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logo-button img {
+  height: 4rem;
+}
+
+
+.nav-buttons {
+    display: flex;
+    margin-right: 1300px;
+    margin-top: 5px;
+    color: #fff6e5;
+    gap: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+
+}
+
+.contact-button {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #45523e;
+  border: 0.08em solid #fff6e5;
+  border-radius: 0.3em;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+.contact-button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #45523e;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff6e5;
+  border: 0.08em solid #fff6e5;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff6e5;
+}
+
+.contact-button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff6e5;
+}
+
+.contact-button span:not(hover) {
+  transition: all 1s;
+}

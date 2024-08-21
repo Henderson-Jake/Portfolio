@@ -1,0 +1,23 @@
+.intro {
+    background-color: #45523e;
+    color: #f5ece5;
+    height: 100vh;
+    
+}
+
+.intro-header{ 
+    padding-top: 150px;
+    position: relative;
+    left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.intro-txt {
+    margin-top: 20px;
+    position: relative;
+    left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+}
+

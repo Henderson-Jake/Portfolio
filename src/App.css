@@ -1,0 +1,12 @@
+.App {
+  background-color: #fff6e5;
+  color: #55524c;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  height: 20vmin;
+  object-position: top;
+  pointer-events: none;
+}
