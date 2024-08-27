@@ -22,15 +22,26 @@
 
 
 .nav-buttons {
-    border: none;
-    display: flex;
-    margin-right: 1300px;
-    margin-top: 5px;
-    color: #fff6e5;
-    gap: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 23px;
+  display: flex;
+  gap: 2rem;
+  margin-right: auto;
+  margin-left: 2rem;
+}
 
+.nav-buttons button {
+  background-color: #45523e; /* Explicitly set to match header background */
+  border: none;
+  color: #fff6e5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: rgba(255, 246, 229, 0.1);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
