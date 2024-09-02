@@ -29,7 +29,7 @@
 }
 
 .nav-buttons button {
-  background-color: #45523e; /* Explicitly set to match header background */
+  background-color: #45523e;
   border: none;
   color: #fff6e5;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
